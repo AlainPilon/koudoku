@@ -31,7 +31,7 @@ module Koudoku
         subscription.charge_disputed
       
       end
-    
+      render head :ok
     end
     
   end
